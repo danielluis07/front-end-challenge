@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="px-10 desktop:px-16 max-w-[1440px] mx-auto w-full h-full">
+    <div className="px-10 desktop:px-16 max-w-[1440px] mx-auto">
       <div className="w-[200px] mt-6">
         <Image src={logo} alt="logo" priority />
       </div>
