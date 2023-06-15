@@ -1,4 +1,3 @@
-import { poppins } from "./layout";
 import Image from "next/image";
 import logo from "../public/images/logo.svg";
 import mainimage from "../public/images/illustration-mockups.svg";
@@ -18,7 +17,7 @@ export default function Home() {
         </div>
         <div className="mt-14 flex flex-col gap-y-10">
           <h1
-            className={`${poppins.className} font-semibold text-center text-xl w-11/12 mx-auto desktop:text-start desktop:mx-0 desktop:text-4xl/[60px] desktop:w-4/6`}>
+            className={`font-semibold text-center text-xl w-11/12 mx-auto desktop:text-start desktop:mx-0 desktop:text-4xl/[60px] desktop:w-4/6`}>
             Build The Community Your Fans Will Love
           </h1>
           <p className="text-center desktop:text-start desktop:w-5/6">
